@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Teori HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+        ol, ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        code {
+            background-color: #f9f9f9;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="form.html">Form Data Diri</a>
+        <a href="teman.html">Tabel Teman</a>
+        <a href="teori.html">Teori HTML</a>
+    </nav>
+
+    <h1>Laporan Teori HTML</h1>
+    
+    <h2>1. Pertanyaan seputar tag</h2>
+    <ol>
+        <li>
+            <p><strong>a. Apa yang dimaksud dengan tag pada html?</strong></p>
+            <p>Tag pada HTML adalah kode yang digunakan untuk menandai elemen di dokumen HTML. Tag biasanya ditulis dalam tanda kurung siku (<code>&lt;&gt;</code>) yang berfungsi sebagai penanda awal dan akhir suatu elemen.</p>
+        </li>
+        <li>
+            <p><strong>b. Apa itu pembuka dan penutup tag? Apakah hal tersebut terdapat pada semua jenis tag?</strong></p>
+            <p>Pembuka tag adalah sesuatu yang menandai awal suatu elemen, contohnya: <code>&lt;p&gt;</code>. Penutup tag adalah sesuatu yang menandakan akhir suatu elemen, contohnya: <code>&lt;/p&gt;</code>. Tapi tidak semua tag mempunyai penutup, sifat mereka adalah self closing.</p>
+        </li>
+    </ol>
+    
+    <h2>2. Pertanyaan seputar element</h2>
+    <ol>
+        <li>
+            <p><strong>a. Apa yang dimaksud dengan element?</strong></p>
+            <p>Element adalah komponen dasar di dokumen HTML yang terdiri dari pembuka, konten dan penutup.</p>
+        </li>
+        <li>
+            <p><strong>b. Apa yang dimaksud dengan tagname, attribute dan content pada element?</strong></p>
+            <ul>
+                <li><strong>Tagname</strong>: adalah nama elemen yang ditulis dalam tanda kurung siku (<code>&lt;&gt;</code>).</li>
+                <li><strong>Attribute</strong>: adalah informasi tambahan tentang elemen yang ditulis dalam tag pembuka. Contohnya: <code>&lt;img src="gambar.jpg"&gt;</code></li>
+                <li><strong>Content</strong>: adalah isi dari elemen yang berada diantara tag pembuka dan penutup.</li>
+            </ul>
+        </li>
+        <li>
+            <p><strong>c. Apakah elemen dapat ditumpuk? Apa yang terjadi bila demikian?</strong></p>
+            <p>Elemen dapat ditumpuk atau disebut dengan nested. Jika ada nest maka elemen harus ditutup sebelum elemen luar.</p>
+        </li>
+    </ol>
+    
+    <h2>3. Pertanyaan seputar anchor</h2>
+    <ol>
+        <li>
+            <p><strong>a. Apa yang dimaksud dengan anchor?</strong></p>
+            <p>Anchor adalah elemen HTML yang digunakan untuk membuat hyperlink ke dokumen lain atau ke bagian tertentu di dalam dokumen yang sama.</p>
+        </li>
+        <li>
+            <p><strong>b. Bagaimana caranya anchor dapat berfungsi, baik dari sisi pendefinisian ataupun pengaplikasiannya?</strong></p>
+            <p>Anchor berfungsi menggunakan href, contohnya: <code>&lt;a href="https://contoh.com"&gt;Kunjungi Contoh&lt;/a&gt;</code></p>
+        </li>
+    </ol>
+    
+    <h2>4. Pertanyaan seputar multimedia</h2>
+    
+    <h3>A. Text</h3>
+    <ol>
+        <li>
+            <p><strong>Sebutkan tag yang dapat digunakan untuk memanipulasi konten teks pada html, serta jelaskan fungsinya secara singkat!</strong></p>
+            <ul>
+                <li><code>&lt;b&gt;</code>: Teks tebal</li>
+                <li><code>&lt;i&gt;</code>: Teks miring</li>
+                <li><code>&lt;u&gt;</code>: Teks bergaris bawah</li>
+                <li><code>&lt;strong&gt;</code>: Teks penting (biasanya tebal)</li>
+                <li><code>&lt;em&gt;</code>: Teks yang ditekankan (biasanya miring)</li>
+                <li><code>&lt;mark&gt;</code>: Teks yang ditandai</li>
+                <li><code>&lt;small&gt;</code>: Teks kecil</li>
+                <li><code>&lt;sub&gt;</code>: Subscript</li>
+                <li><code>&lt;sup&gt;</code>: Superscript</li>
+            </ul>
+        </li>
+        <li>
+            <p><strong>Sebutkan tag yang dapat digunakan untuk memanipulasi struktur konten teks pada html!</strong></p>
+            <ul>
+                <li><code>&lt;h1&gt;</code> sampai <code>&lt;h6&gt;</code>: Heading</li>
+                <li><code>&lt;p&gt;</code>: Paragraf</li>
+                <li><code>&lt;br&gt;</code>: Baris baru</li>
+                <li><code>&lt;hr&gt;</code>: Garis horizontal</li>
+                <li><code>&lt;div&gt;</code>: Divisi/blok</li>
+                <li><code>&lt;span&gt;</code>: Span/inline container</li>
+            </ul>
+        </li>
+    </ol>
+    
+    <h3>B. Image</h3>
+    <ol start="3">
+        <li>
+            <p><strong>Apabila sebuah tag image tidak menampilkan gambar sebagaimana seharusnya, apa saja yang mungkin menyebabkan hal tersebut?</strong></p>
+            <ul>
+                <li>Path/URL gambar salah</li>
+                <li>Nama file tidak sesuai (case sensitive)</li>
+                <li>Format gambar tidak didukung</li>
+                <li>Server gambar tidak dapat diakses</li>
+                <li>Atribut src kosong atau salah</li>
+            </ul>
+        </li>
+        <li>
+            <p><strong>Apabila ternyata ada teks yang menggantikan gambar tersebut, apa yang sebenarnya terjadi?</strong></p>
+            <p>Teks alternatif (alt) yang muncul jika gambar gagal dimuat. Path gambar salah sehingga browser menampilkan placeholder.</p>
+        </li>
+    </ol>
+    
+    <h3>C. Audio</h3>
+    <ol start="5">
+        <li>
+            <p><strong>Bagaimana caranya untuk kita dapat memasukkan audio source dari web (non-lokal)?</strong></p>
+            <p>
+                <code>&lt;audio controls&gt;<br>
+                  &lt;source src="https://contoh.com/audio.mp3" type="audio/mpeg"&gt;<br>
+                  Browser Anda tidak mendukung elemen audio.<br>
+                &lt;/audio&gt;</code>
+            </p>
+        </li>
+    </ol>
+    
+    <h3>D. Video</h3>
+    <ol start="6">
+        <li>
+            <p><strong>Apa yang biasanya terjadi apabila atribut autoplay pada tag video tidak berjalan? Apa yang anda harus lakukan sehingga atribut tersebut dapat berfungsi dengan semestinya?</strong></p>
+            <p>Biasanya karena kebijakan browser yang memblokir autoplay dengan suara. Solusinya adalah dengan menambahkan atribut muted dan pastikan video tidak memiliki audio.</p>
+        </li>
+    </ol>
+</body>
+</html>

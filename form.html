@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Data Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="form.html">Form Data Diri</a>
+        <a href="teman.html">Tabel Teman</a>
+        <a href="teori.html">Teori HTML</a>
+    </nav>
+
+    <h1>Form Data Diri Mahasiswa</h1>
+    <form action="finish.html" method="post">
+        <div class="form-group">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="nim">NIM:</label>
+            <input type="text" id="nim" name="nim" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="jurusan">Jurusan:</label>
+            <select id="jurusan" name="jurusan" required>
+                <option value="">Pilih Jurusan</option>
+                <option value="TI">Teknik Informatika</option>
+                <option value="SI">Sistem Informasi</option>
+            </select>
+        </div>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
